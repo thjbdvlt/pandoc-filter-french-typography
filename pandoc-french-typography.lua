@@ -4,7 +4,7 @@
 -- typography.
 local pc = "?!:;"
 
--- the non-breaking space character.
+-- the thin non-breaking space character.
 local thinspc = "\u{2009}"
 
 -- make the patterns for the gsub function.
