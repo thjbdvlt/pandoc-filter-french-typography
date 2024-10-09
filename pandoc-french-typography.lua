@@ -1,15 +1,15 @@
--- ajoute les espaces nécessaires à la typographie française.
+-- typographie française: espaces fines avec ponctuation.
 
 -- punctuation that requires a non-breaking space in french
 -- typography.
-local pc = "[?!:;]"
+local pc = "?!:;"
 
 -- the non-breaking space character.
-local nbs = "\u{00A0}"
+local thinspc = "\u{2009}"
 
 -- make the patterns for the gsub function.
-local p1 = "(" .. pc .. "+)"
-local p2 = nbs .. "%1"
+local p1 = "([" .. pc .. "]+)"
+local p2 = thinspc .. "%1"
 
 function Inline(elem)
     -- les signes de ponctuation qui requièrent simplement un 
