@@ -16,11 +16,9 @@ mais!!!
 
 et puis "ensuite hé bi" eh bin voilà.
 
-les autres, l'autres, l'"autre" enfin aussi "pour" et "comment ça"
+les autres, l'autres, l'"autre" enfin aussi "pour" et  aue auei auei a  iuaei aueia  euia "comment ça"
 
 et depuis : rien
 
 mais
 : mais quoi?
-
-__quoiii__
