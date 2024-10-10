@@ -16,7 +16,7 @@ mais!!!
 
 et puis "ensuite hé bi" eh bin voilà.
 
-les autres, l'autres, l'"autre"
+les autres, l'autres, l'"autre" enfin aussi "pour" et "comment ça"
 
 et depuis : rien
 

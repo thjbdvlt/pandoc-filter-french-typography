@@ -30,6 +30,10 @@
 -- @copyright 2018, 2020 Odin Kroeger
 -- @license MIT
 
+-- Modifications (thjbdvlt, 2024):
+-- - remove a lot of things (configuration, Meta, ...): i keep only what is about french quotes.
+-- - update definition of french quotes (add non-breaking spaces)
+
 
 -- # INITIALISATION
 
@@ -65,17 +69,6 @@ if PATH_SEP == '\\' then EOL = '\r\n'
 QUOT_MARKS = {'« ',  ' »',     '“',  '”'    }
 
 -- # FUNCTIONS
-
---- Applies a function to every element of a list.
---
--- @tparam func f The function.
--- @tparam tab list The list.
--- @treturn tab The return values of `f`.
-function map (f, list)
-    local ret = {}
-    for k, v in pairs(list) do ret[k] = f(v) end
-    return ret
-end
 
 do
     do
