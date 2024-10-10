@@ -16,4 +16,9 @@ mais!!!
 
 et puis "ensuite hé bi" eh bin voilà.
 
+et depuis : rien
+
+mais
+: mais quoi?
+
 __quoiii__
