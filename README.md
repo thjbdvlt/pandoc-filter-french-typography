@@ -2,7 +2,7 @@ a mini [pandoc](https://pandoc.org/index.html) [lua filter](https://pandoc.org/l
 
 - there is no __magic__ at all. it only add thin spaces in `Inline` elements (not in code block, for instance), and if there is already a space, it still add a thin space.
 - it does nothing for quotes, because lua filter for quotes already exists.
-- it works for PDF produced with typst (not tested on anything else)
+- yet only tested for PDF produced with typst
 
 usage
 =====
