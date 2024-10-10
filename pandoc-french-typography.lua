@@ -1,4 +1,4 @@
--- typographie française: espaces fines avec ponctuation.
+-- french typography: thin space before ;:?!
 
 -- punctuation that requires a non-breaking space in french
 -- typography.

@@ -16,6 +16,8 @@ mais!!!
 
 et puis "ensuite hé bi" eh bin voilà.
 
+les autres, l'autres, l'"autre"
+
 et depuis : rien
 
 mais
