@@ -66,9 +66,8 @@ if PATH_SEP == '\\' then EOL = '\r\n'
                     else EOL = '\n'   end
 
 -- french quotes
--- local thinspc = "\u{2009}"
 local nbspc = "\u{00A0}"
-QUOT_MARKS = {'«' .. nbspc,  nbspc .. '»',     '“',  '”'    }
+QUOT_MARKS = {'«' .. nbspc, nbspc .. '»', '“', '”'}
 
 -- # FUNCTIONS
 
