@@ -13,43 +13,35 @@
 --        i keep only what is about french quotes.
 --      - update definition of french quotes (add non-breaking spaces)
 
--- punctuation that requires a non-breaking space in french
--- typography.
+-- punctuations that french requires to be preceded by a thing space
 local pc = "?!:;"
 
--- the thin non-breaking space character.
+-- thin space char
 local thinspc = "\u{2009}"
 
--- make the patterns for the gsub function.
+-- patterns for the gsub function.
 local p1 = "([" .. pc .. "]+)"
 local p2 = thinspc .. "%1"
 
 function insert_thinspc_punct(elem)
-    -- les signes de ponctuation qui requièrent simplement un 
-    -- espace insécable.
-    --
     if elem.text ~= nil then
         return string.gsub(elem.text, p1, p2)
     end
 end
 
--- french quotes
-
--- 2. QUOTES
 
 local nbspc = "\u{00A0}"
 local QUOT_MARKS = {'«' .. nbspc, nbspc .. '»', '“', '”'}
+
 
 -- >>>> pandoc-quotes.lua >>>>
 -- copyright 2018, 2020 Odin Kroeger
 -- MIT license
 -- https://github.com/odkr/pandoc-quotes.lua
-local M = {}
 local require = require
 local table = table
 local pandoc = pandoc
 if not pandoc.utils then pandoc.utils = require 'pandoc.utils' end
-local _ENV = M
 do
     do
         local insert = table.insert
