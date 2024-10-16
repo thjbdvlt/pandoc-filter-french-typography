@@ -24,11 +24,10 @@ local p1 = "([" .. pc .. "]+)"
 local p2 = thinspc .. "%1"
 
 function insert_thinspc_punct(elem)
-    if elem.text ~= nil and elem.type ~= Code then
+    if elem.text ~= nil and elem.t ~= 'Code' then
         return string.gsub(elem.text, p1, p2)
     end
 end
-
 
 local nbspc = "\u{00A0}"
 local QUOT_MARKS = {'«' .. nbspc, nbspc .. '»', '“', '”'}
