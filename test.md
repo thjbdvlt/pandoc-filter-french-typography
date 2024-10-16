@@ -3,6 +3,7 @@ lang: "fr"
 ---
 
 iiiiiiiion aaaaaaaaaa est là: on est ici; on arrive. on arrive a au aaaaaaaaaaaaaaaaaaaaaaaaabientôt!!
+mais il faut conserver les `raw inline: aussi`.
 
 > quoi? mais nan!
 

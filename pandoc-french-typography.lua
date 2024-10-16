@@ -24,7 +24,7 @@ local p1 = "([" .. pc .. "]+)"
 local p2 = thinspc .. "%1"
 
 function insert_thinspc_punct(elem)
-    if elem.text ~= nil then
+    if elem.text ~= nil and elem.type ~= Code then
         return string.gsub(elem.text, p1, p2)
     end
 end
@@ -39,8 +39,8 @@ local QUOT_MARKS = {'«' .. nbspc, nbspc .. '»', '“', '”'}
 -- MIT license
 -- https://github.com/odkr/pandoc-quotes.lua
 local require = require
-local table = table
 local pandoc = pandoc
+local table = table
 if not pandoc.utils then pandoc.utils = require 'pandoc.utils' end
 do
     do
